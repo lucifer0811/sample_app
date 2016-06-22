@@ -4,3 +4,8 @@ phannguyen:
   email: nhoxvip95@gmail.com
   password_digest: <%= User.digest('password') %>
 # empty
+
+archer:
+  name: Sterling Archer
+  email: duchess@example.gov
+  password_digest: <%= User.digest('password') %>
